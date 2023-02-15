@@ -1,0 +1,41 @@
+#board{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin:40 px auto;
+    border: 2px solid white;
+    background: black;
+}
+#jet{
+    position: absolute;
+    left:50%;
+  
+    width: 40px;
+    height: 40px;
+    background: yellowgreen;
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+    bottom: 0px;
+}
+
+.bullets{
+    position: absolute;
+    bottom: 40px;
+    left: 51%;
+    
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: orchid;
+  
+}
+.follow-cursor{
+    position: absolute;
+ 
+}
+.follow-cursor2{
+    position: absolute;
+ 
+}
